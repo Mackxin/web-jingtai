@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: Arial,​Helvetica,​sans-serif;
+	margin-bottom: 200px;
+}
+a{
+	text-decoration: none;
+}
+img,input{
+	border: none;
+	border: 1px solid none;
+}
+/*以上是清零*/
+/*公共样式*/
+a{
+	color: #3377AA;
+}
+a:hover{
+	background: #3377AA;
+	color: white;
+}
+ul{
+	list-style: none;
+}
+/*公共样式结束*/
+/*顶部logo和搜索区域开始*/
+#header{
+	width: 965px;
+	background: #FFFFFF;
+	height: 90px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+#header .header-logo{
+	display: block;
+	background: url(images/logo_db.png) no-repeat;
+	width: 154px;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	top: 30px;
+}
+#header .header-search{
+	border :1px solid #C3C3C3;
+	width: 270px;
+	height: 30px;
+	position: absolute;
+	left: 183px;
+	top: 30px;
+	color: #E3E3E3;
+	text-indent: 6px;   /*这个代码是使搜索框里面的字体首行缩进多少*/
+}
+#header .header-sousuo{
+	background: url(images/bn_srh_1.png) no-repeat 10px 10px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 423px;
+	top :30px;
+	/*border: 1px solid red;*/
+}
+#header ul{
+	width: 477px;
+	height: 20px;
+	position: absolute;
+	left: 487px;
+	top: 37px;
+}
+#header ul li{
+	float: left;
+}
+#header ul li a{
+	display: block;
+	width: 40px;
+	height: 20px;
+	margin-right: 22px;
+}
+#header ul li .header-book{
+	background: url(images/anony_nav_logo4.png) no-repeat 0px 0px;
+}
+#header ul li .header-movie{
+	background: url(images/anony_nav_logo4.png) no-repeat -60px 0px;
+}
+#header ul li .header-music{
+	background: url(images/anony_nav_logo4.png) no-repeat -120px 0px;
+}
+#header ul li .header-xiaozu{
+	background: url(images/anony_nav_logo4.png) no-repeat -180px 0px;
+}
+#header ul li .header-tongcheng{
+	background: url(images/anony_nav_logo4.png) no-repeat -340px 0px;
+}
+#header ul li .header-fm{
+	background: url(images/anony_nav_logo4.png) no-repeat -240px 0px;
+	width: 78px;
+}
+#header ul li .header-dongxi{
+	background: url(images/anony_nav_logo4.png) no-repeat -400px 0px;
+}
+/*顶部logo和搜索区域结束*/
+
+/*灰色注册区域开始*/
+#login{
+	width: 100%;
+	height: 97px;
+	background: #E8EDF1;
+}
+#login .login-box{
+	width: 965px;
+	height: 97px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	position: relative;
+}
+#login .login-box .login-zhuce{
+	display: block;
+	width: 120px;
+	height: 37px;
+	background: #EF7360;
+	color: white;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	text-align: center;
+	line-height: 37px;
+	border-radius: 2px;   /*这个是使长方形的角变为圆形的*/
+}
+#login .login-box .login-zhuce:hover{
+	background: #ED6752;
+}
+#login .login-box span{
+	position: absolute;
+	left: 139px;
+	top: 32px;
+	color: #666666;
+	font-size: 18px;
+}
+#login input{
+	width: 158px;
+	height: 34px;
+	display: block;
+	background: white;
+	color: #E3E3E3;
+	text-indent: 8px;
+}
+#login .login-shouji{
+	position: absolute;
+	right: 245px;
+	top: 20px;
+}
+#login .login-mima{
+	position: absolute;
+	right: 84px;
+	top: 20px;
+}
+#login .login-denglu{
+	display: block;
+	width: 80px;
+	height: 33px;
+	background: #3BA354;
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	color: white;
+	text-align: center;
+	line-height: 33px;
+	border-radius: 2px;
+}
+#login .login-denglu:hover{
+	background: #1C9439;
+}
+#login .login-love{
+	position: absolute;
+	left: 561px;
+	top: 60px;
+	list-style: none;
+	width: 15px;
+	height: 15px;
+}
+#login p{
+	position: absolute;
+	left: 578px;
+	top: 60px;
+	font-size: 12px;
+	color: #111111;
+}
+#login .login-forget{
+	position: absolute;
+	left: 723px;
+	top: 60px;
+	color: #3377AA;
+	font-size: 12px;
+}
+#login .login-forget:hover{
+	background: #3377AA;
+	color: white;
+}
+/*灰色注册区域结束*/
+/*广告栏开始*/
+#guanggao{
+	margin: 0 auto;
+	display: block;
+	width: 950px;
+	height: 90px;
+	margin-top: 35px;
+	background: url(images/2de8e49458a44ac.jpg) no-repeat;
+}
+/*广告栏结束*/
+/*热点内容区域开始*/
+#content{
+	width: 950px;
+	height: 440px;
+	margin: 9px auto 0px;
+}
+/*左边开始*/
+#content .content-left{
+	width: 360px;
+	height: 440px;
+	float: left;
+	position: relative;
+}
+#content .content-left .content-ti{
+	color: #007722;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+#content .content-left ul{
+	width: 370px;
+	height: 410px;
+	position: relative;
+	font-size: 12px;
+}
+#content .content-left ul li{
+	float: left;
+	width: 170px;
+	height: 202px;
+	margin-right: 8px;
+}
+#content .content-left ul li .content-bj1{
+	background: url(images/p2182007736.jpg) no-repeat;
+	display: block;
+	width: 170px;
+	height: 170px;
+}
+#content .content-left ul li .content-xx1{
+	position: absolute;
+	left: 3px;
+	top: 175px;
+}
+#content .content-left ul li .yy1{
+	position: absolute;
+	left: 70px;
+	top: 175px;
+	color: #999999;
+}
+#content .content-left ul li .content-bj2{
+	background: url(images/p2193998361.jpg) no-repeat;
+	display: block;
+	width: 170px;
+	height: 170px;
+}
+#content .content-left ul li .content-xx2{
+	position: absolute;
+	left: 178px;
+	top: 175px;
+}
+#content .content-left ul li .yy2{
+	position: absolute;
+	left: 230px;
+	top: 175px;
+	color: #999999;
+}
+#content .content-left ul li .content-bj3{
+	background: url(images/p2108017099.jpg) no-repeat;
+	display: block;
+	width: 170px;
+	height: 170px;
+}
+#content .content-left ul li .content-xx3{
+	position: absolute;
+	left: 3px;
+	top: 375px;
+}
+#content .content-left ul li .yy3{
+	position: absolute;
+	left: 3px;
+	top: 390px;
+	color: #999999;
+}
+#content .content-left ul li .content-bj4{
+	background: url(images/p2189388669.jpg) no-repeat;
+	display: block;
+	width: 170px;
+	height: 170px;
+}
+#content .content-left ul li .content-xx4{
+	position: absolute;
+	left: 178px;
+	top: 380px;
+}
+#content .content-left ul li .yy4{
+	position: absolute;
+	left: 260px;
+	top: 380px;
+	color: #999999;
+}
+/*左边结束*/
+/*中间开始*/
+#content .content-conter{
+	width: 265px;
+	height: 440px;
+	float: left;
+	font-size: 12px;
+	padding-left: 5px;
+}
+#content .content-conter h4{
+	color: #999999;
+	font-weight: 400;
+	padding: 3px 0px;
+}
+#content .content-conter p{
+	color: #666666;
+	padding: 3px 0px;
+}
+#content .content-conter ul li{
+	padding-top: 20px;
+}
+/*中间结束*/
+/*右边开始*/
+#content .content-right{
+	width: 265px;
+	height: 440px;
+	float: right;
+}
+#content .content-right .content-right-a{
+	width: 265px;
+	height: 110px;
+	display: block;
+	margin-top: 8px;
+}
+#content .content-right .content-right-xian{
+	color: #007722;
+	font-size: 15px;
+	margin-top: 8px;
+}
+#content .content-right .content-right-xian a{
+	font-weight: 400;
+	font-size: 12px;
+}
+#content .content-right ul{
+	font-size: 12px;
+	font-weight: 400;
+	width: 265px;
+	height: 280px;
+}
+#content .content-right ul li{
+	width: 265px;
+	height: 75px;
+	position: relative;
+}
+#content .content-right ul li a{
+	position: absolute;
+	left: 3px;
+	top: 8px;
+}
+#content .content-right ul li p{
+	position: absolute;
+	left: 5px;
+	top: 38px;
+	color: #999999;
+}
+#content .content-right ul li b{
+	position: absolute;
+	left: 5px;
+	top: 53px;
+	color: #999999;
+	font-weight: 400;
+}
+/*右边结束*/
+/*热点内容区域结束*/
+/*热点东西开始*/
+#hotxi{
+	width: 100%;
+	height: 830px;
+	background: #F7F7F7;
+}
+#hotxi .hotxi-box{
+	width: 965px;
+	height: 810px;
+	border: 1px solid red;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#hotxi .hotxi-box .hotxi-dongxi h2{
+	color: #A16B4E;
+}
+#hotxi .hotxi-box .hotxi-dongxi ul li{
+	margin-top: 15px;
+}
+#hotxi .hotxi-box .hotxi-dongxi ul li a{
+	color: #A16B4E;
+}
+#hotxi .hotxi-box .hotxi-dongxi ul li a:hover{
+	background: #F7F7F7;
+	color: #7F4B2F;
+}
+#hotxi .hotxi-box .hotxi-dongxi .hotxi-bj{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(images/weibo_dongxi.png) no-repeat;
+	margin: 20px 0px;
+}
+#hotxi .hotxi-box .hotxi-dongxi .hotxi-guanzhu{
+	color: #A16B4E;
+	font-size: 12px;
+}
+#hotxi .hotxi-box .hotxi-dongxi .hotxi-guanzhu:hover{
+	color: #7F4B2F;
+	background: #F7F7F7;
+}
+/*热点东西结束*/
